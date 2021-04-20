@@ -1,0 +1,79 @@
+/********** homepage/index **********/
+
+.container_profil{
+    margin-top: 75px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.container_profil .bloc_info{
+    flex: 1 70%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.container_profil .bloc_info .presentation{
+    flex: 1 85%;
+}
+.container_profil .bloc_info .img_profil{
+    flex: 1 15%;
+}
+.container_profil .bloc_info .img_profil .logo_profil{
+    height: 150px;
+    width: 150px;
+}
+
+
+/********** experience/index **********/
+
+.container_experience{
+    margin-top: 75px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container_experience .bloc_experience{
+    flex: 1 90%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.container_experience .bloc_experience .img_entreprise{
+    flex: 1 15%;
+}
+.container_experience .bloc_experience .img_entreprise .logo_entreprise{
+    height: 150px;
+    width: 150px;
+}
+.container_experience .bloc_experience .info_entreprise{
+    flex: 1 85%;
+}
+.container_experience .bloc_experience .info_entreprise .poste{
+    font-weight: bold;
+}
+.container_experience .bloc_experience .info_entreprise .duree,
+.container_experience .bloc_experience .info_entreprise .periode{
+    font-style: italic;
+}
+
+/********** apprenticeship/index **********/
+
+
+
+
+/********** project/index **********/
+
+.container_project{
+    text-align: center;
+}
+
+.container_project .bloc_ppe{
+    height: 360px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}

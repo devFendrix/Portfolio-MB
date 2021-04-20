@@ -1,0 +1,38 @@
+{% extends "base.html.twig" %}
+{% block body %}
+    <div class="container_experience">
+        <div class="bloc_experience">
+            <div class="img_entreprise">
+                <img class="logo_entreprise" src="{{ asset('img/playin-logo.jpg') }}" alt="playin-logo.jpg">
+            </div>
+            <div class="info_entreprise">
+                <h3>Playin by Magic Bazar</h3>
+                <div class="poste">Intitulé du poste : Développeur Back-end </div>
+                <div class="type">Type de contrat : Apprentissage </div>
+                <div class="duree">Durée : En cours </div>
+                <div class="periode">Période : Octobre 2020 à ...</div>
+                <ul class="competence">
+                    <li> Maintien et amélioration du back-office et du front</li>
+                </ul>
+            </div>
+        </div>
+        <div class="bloc_experience">
+            <div class="img_entreprise">
+                <img class="logo_entreprise" src="{{ asset('img/opinaka-logo.png') }}" alt="opinaka.png">
+            </div>
+            <div class="info_entreprise">
+                <h3>Opinaka</h3>
+                <div class="poste">Intitulé du poste : Informaticien </div>
+                <div class="type">Type de contrat : stage non rémunéré </div>
+                <div class="duree">Durée : 5 semaines </div>
+                <div class="periode">Période : Juin à Juillet 2020</div>
+                <ul class="competence">
+                    <li> Réalisation de template à des fins commerciales</li>
+                    <li> Amélioration des templates sous Wordpress</li>
+                    <li> Regroupement des réalisations dans une base de données</li>
+                    <li> Visualisation de ces données sous Kibana et Grafana</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+{% endblock %}
