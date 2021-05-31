@@ -1,39 +1,56 @@
 {% extends "base.html.twig" %}
 {% block body %}
-<div class="col container_project">
-    <div class="row">
-        <h1>Mes projets personnels encadrés</h1>
-    </div>
-    <div class="row">
-        <div class="col">
-            <div class="bloc_ppe">
-                <h4>PPE n° 1</h4>
-                <a href="#" class="">PPE1 - Cahier des charges</a>
-                <p>Il s'agit là du cahier des charges concernant l</p>
-            </div>
+
+<div class="container_ppe">
+    <div class="bloc_ppe">
+        <div class="info_lien">
+            <h4>PPE 1</h4>
+            <a href="{{ url('project.ppe1') }}" class="">Cahier des charges</a>
         </div>
-        <div class="col">
-            <div class="bloc_ppe">
-                <h4>PPE n° 2</h4>
-                <a href="https://btsppe2021.tech/" class="">PPE2 - Gestion fiche des frais</a>
-                <p> A REMPLIR </p>
-            </div>
+        <div class="descriptif">
+            <p>Réalisation d'un cahier des charges pour l'équipement des visiteurs de l'entreprise GSB</p>
         </div>
     </div>
-    <div class="row">
-        <div class="col">
-            <div class="bloc_ppe">
-                <h4>PPE n° 3</h4>
-                <a href="https://btsppe2021.tech/" class="">PPE3 - Gestion compte-rendu</a>
-                <p> A REMPLIR </p>
-            </div>
+
+    <div class="bloc_ppe">
+        <div class="info_lien">
+            <h4>PPE 2</h4>
+            <a href="https://btsppe2021.tech/" class="">Gestion fiche des frais</a>
         </div>
-        <div class="col">
-            <div class="bloc_ppe">
-                <h4>PPE n° 4</h4>
-                <a href="https://github.com/EdouardQ/GSB-android" class="">PPE4 - Application Android GSB</a>
-                <p> A REMPLIR </p>
-            </div>
+        <div class="descriptif">
+            <p>
+                Réalisation d'un site internet permettant aux visiteurs de l'entreprise GSB de rentrer leurs frais et aux compatbles de les valider. <br>
+                Une documentation de la base de données ainsi que des pages html et des scripts php ont été fournis.
+            </p>
+            <p>Technologies : PHP 7 - HTML 5 - CSS 3 - MySQL </p>
+        </div>
+    </div>
+
+    <div class="bloc_ppe">
+        <div class="info_lien">
+            <h4>PPE 3</h4>
+            <a href="{{ url('project.ppe3') }}" class="">Documentation Web-Appli GSB</a>
+            <a href="https://btsppe2021.tech/" class="">Gestion compte-rendu</a>
+
+        </div>
+        <div class="descriptif">
+            <p>
+                Réalisation d'un site internet permettant aux visiteurs de l'entreprise GSB de rentrer comptes-rendus de visites médicales. <br>
+                Projet réalisé "from scratch", tout a été concu et réalisé par le groupe.
+            </p>
+            <p>Technologies : Symfony 4.25 - PHP 8 - HTML 5 - CSS 3 - MySQL </p>
+        </div>
+    </div>
+
+    <div class="bloc_ppe">
+        <div class="info_lien">
+            <h4>PPE 4</h4>
+            <a href="{{ url('project.ppe4') }}" class="">Documentation Android GSB</a>
+            <a href="https://github.com/EdouardQ/GSB-android" class="">Application Android GSB</a>
+        </div>
+        <div class="descriptif">
+            <p>Réalisation d'une application mobile permettant aux visiteurs de l'entreprise GSB de rentrer leurs frais et aux compatbles de les valider.</p>
+            <p>Technologies : Android Java </p>
         </div>
     </div>
 </div>

@@ -12,26 +12,22 @@
         <li class="nav-item">
           <a class="nav-link " aria-current="page" href="{{ url('experience.index') }}">Expériences</a>
         </li>
-        <!--<li class="nav-item">
-          <a class="nav-link " aria-current="page" href="{{ url('apprenticeship.index') }}">Alternance</a>
-        </li>-->
         <li class="nav-item">
           <a class="nav-link " aria-current="page" href="{{ url('project.index') }}">Projets</a>
         </li>
-
-        <!--<li class="nav-item dropdown">
+        <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Projets
+            Apprentissage
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">PPE n°1</a></li>
-            <li><a class="dropdown-item" href="#">PPE n°2</a></li>
-            <li><a class="dropdown-item" href="#">PPE n°3</a></li>
-            <li><a class="dropdown-item" href="#">PPE n°4</a></li>
+            <li><a class="dropdown-item" href="{{ url('apprenticeship.index') }}">Présentation</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="{{ url('apprenticeship.rating') }}">Projet "Avis clients"</a></li>
+            <li><a class="dropdown-item" href="{{ url('apprenticeship.rework') }}">Projet "Refonte panier mobile"</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="{{ url('apprenticeship.innovation') }}">Veille technologique</a></li>
           </ul>
-        </li>-->
+        </li>
       </ul>
     </div>
   </div>

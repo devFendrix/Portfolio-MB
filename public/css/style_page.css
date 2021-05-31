@@ -33,7 +33,6 @@
     display: flex;
     flex-flow: row wrap;
 }
-
 .container_experience .bloc_experience{
     flex: 1 90%;
     margin-top: 25px;
@@ -63,17 +62,154 @@
 
 /********** apprenticeship/index **********/
 
+.container_apprenticeship{
+    margin-top: 75px;
+    display: flex;
+    flex-flow: row wrap;
+}
 
+.container_apprenticeship .bloc_shop{
+    flex: 1 90%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container_apprenticeship .bloc_shop .shop_paris,
+.container_apprenticeship .bloc_shop .shop_annecy{
+    flex: 1 50%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.container_apprenticeship .bloc_shop .shop_paris .img,
+.container_apprenticeship .bloc_shop .shop_annecy .img{
+    flex: 1 100%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.container_apprenticeship .bloc_shop .shop_paris .title,
+.container_apprenticeship .bloc_shop .shop_annecy .title{
+    margin-top: 15px;
+}
+
+.container_apprenticeship .bloc_shop .shop_paris .img_shop,
+.container_apprenticeship .bloc_shop .shop_annecy .img_shop{
+    height: 300px;
+    width: 500px;
+}
+
+.container_apprenticeship .bloc_site{
+    flex: 1 90%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container_apprenticeship .bloc_site .site{
+    flex: 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.container_apprenticeship .bloc_site .site .img{
+    flex: 1 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container_apprenticeship .bloc_site .site .img_site{
+    height: 800px;
+    width: 1200px;
+}
+.container_apprenticeship .bloc_site .site .title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.container_rework{
+    margin-top: 75px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container_rework .bloc_rework{
+    flex: 1 90%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.container_rework .bloc_rework .old_cart,
+.container_rework .bloc_rework .new_cart{
+    flex: 1 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /********** project/index **********/
 
-.container_project{
+.container_ppe{
+    margin-top: 75px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.container_ppe .bloc_ppe{
+    flex: 1 80%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.container_ppe .bloc_ppe .info_lien{
+    flex: 1 25%;
+    display: flex;
+    flex-flow: column wrap;
     text-align: center;
 }
+.container_ppe .bloc_ppe .descriptif{
+    flex: 1 75%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
 
-.container_project .bloc_ppe{
-    height: 360px;
+}
+
+.container_ppe1{
+    margin-top: 75px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container_doc .bloc_ppe{
+    flex: 1 80%;
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container_doc .bloc_ppe object{
+    flex: 1 80%;
+    height: 800px;
 }

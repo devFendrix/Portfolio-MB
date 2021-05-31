@@ -1,0 +1,14 @@
+{% extends "base.html.twig" %}
+{% block body %}
+
+<div class="container_doc">
+    <div class="bloc_ppe">
+        <object type="application/pdf" data="{{ asset('pdf/Fiche_presentation_PPE3.pdf') }}" id="pdf_ppe1">
+                    <p>It appears you don't have a PDF plugin for this browser.
+                    No biggie... you can <a href="{{ asset('pdf/Fiche_presentation_PPE3.pdf') }}">click here to
+                    download the PDF file.</a></p>  
+        </object>
+    </div>
+</div>
+
+{% endblock %}
